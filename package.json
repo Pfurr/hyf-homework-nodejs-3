@@ -1,0 +1,21 @@
+{
+  "name": "rest-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "ci:test": "npm-run-all -p -r start test",
+    "start": "node src/index.js",
+    "test": "cypress run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^3.4.1",
+    "npm-run-all": "^4.1.5"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
