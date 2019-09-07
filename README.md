@@ -6,7 +6,10 @@ We would create a simple counter to understand the details of persistent data.
 ## Steps
 
 - Create a Server that would answer to "/" with "Hello World"
-- Create an endpoint that would answer to `GET` to `/counters` with the list of counters
+- Create an endpoint that would answer to `GET` to `/users` with the list of users
+- Create an endpoint to `GET` to `/user/:id`
+- Create an endpoint to `POST` to `/user/:id`
+- Create an endpoint to `DELETE` to `/user/:id`
 
 <br/>
 <br/>
